@@ -1,0 +1,31 @@
+{
+  "canvases": [],
+  "webhooks": [
+    { "event": "app_install",                "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "app_uninstall",              "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "organization_token_updated", "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_member_booking",         "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "member_booking_updated",     "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "member_booking_cancelled",   "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_member",                 "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "member_updated",             "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "member_deleted",             "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_checkin",                "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "cancel_checkin",             "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_plan_subscription",      "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "cancel_plan_subscription",   "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "plan_subscription_changed",  "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "plan_ending_soon",           "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "invoice_paid",               "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "invoice_updated",            "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_team_member",            "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "team_member_deleted",        "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "team_updated",               "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "account_type_updated",       "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "assignment_started",         "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "assignment_ended",           "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_sale",                   "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_issue",                  "url": "{WEBHOOK_BASE_URL}/webhooks" },
+    { "event": "new_lead",                   "url": "{WEBHOOK_BASE_URL}/webhooks" }
+  ]
+}
